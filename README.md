@@ -7,7 +7,7 @@ http://www.bing.com/HPImageArchive.aspx?format=rss&idx=0&n=1&mkt=en-US
 USE:  
 BingImage bingImage = new BingImage();  
 var bingUnit = await bingImage.GetTodayBingUnit(BingImageResolution.LARGE);  
-if (bingUnit != null)
+if (bingUnit != null)  
 {  
-    imgPreview.Source = new BitmapImage(new Uri(bingUnit.Path));
+    imgPreview.Source = new BitmapImage(new Uri(bingUnit.Path));  
 }  
