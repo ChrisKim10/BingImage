@@ -10,6 +10,6 @@ USE:
     var bingUnit = await bingImage.GetTodayBingUnit(BingImageResolution.LARGE);
     if(bingUnit != null)
     {
-	       imgPreview.Source = new BitmapImage(new Uri(bingUnit.Path));
+	   imgPreview.Source = new BitmapImage(new Uri(bingUnit.Path));
 	   }
 
