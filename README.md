@@ -11,5 +11,5 @@ USE:
     if(bingUnit != null)
     {
 	   imgPreview.Source = new BitmapImage(new Uri(bingUnit.Path));
-	   }
+	}
 
